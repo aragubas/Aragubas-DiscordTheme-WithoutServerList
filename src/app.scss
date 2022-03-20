@@ -23,17 +23,17 @@
   * @source https://github.com/aragubas/Aragubas-DiscordTheme
 
 */
-
-@use "./user-profile.css";
-@use "./context-menus.css";
-@use "./dialogs.css";
-@use "./bottomBar-layout.css";
-@use "./topBar-layout.css";
-@use "./popups.css";
-@use "./small-fixes.css";
-@use "./settings.css";
-@use "./create-server-dialog.css";
-@use "./color-scheme.css";
+// Import all the styles from original theme, so an update there will be reflected here.
+@import url("https://rawcdn.githack.com/aragubas/Aragubas-DiscordTheme/bd2275e502727c41f66185eaefd9c76da14b6250/src/user-profile.css");
+@import url("https://rawcdn.githack.com/aragubas/Aragubas-DiscordTheme/bd2275e502727c41f66185eaefd9c76da14b6250/src/context-menus.css");
+@import url("https://rawcdn.githack.com/aragubas/Aragubas-DiscordTheme/bd2275e502727c41f66185eaefd9c76da14b6250/src/dialogs.css");
+@import url("https://rawcdn.githack.com/aragubas/Aragubas-DiscordTheme/bd2275e502727c41f66185eaefd9c76da14b6250/src/bottomBar-layout.css");
+@import url("https://rawcdn.githack.com/aragubas/Aragubas-DiscordTheme/bd2275e502727c41f66185eaefd9c76da14b6250/src/topBar-layout.css");
+@import url("https://rawcdn.githack.com/aragubas/Aragubas-DiscordTheme/bd2275e502727c41f66185eaefd9c76da14b6250/src/popups.css");
+@import url("https://rawcdn.githack.com/aragubas/Aragubas-DiscordTheme/bd2275e502727c41f66185eaefd9c76da14b6250/src/small-fixes.css");
+@import url("https://rawcdn.githack.com/aragubas/Aragubas-DiscordTheme/bd2275e502727c41f66185eaefd9c76da14b6250/src/settings.css");
+@import url("https://rawcdn.githack.com/aragubas/Aragubas-DiscordTheme/bd2275e502727c41f66185eaefd9c76da14b6250/src/create-server-dialog.css");
+@import url("https://rawcdn.githack.com/aragubas/Aragubas-DiscordTheme/bd2275e502727c41f66185eaefd9c76da14b6250/src/color-scheme.css");
 
 // Variables for Color Scheme, Gradients and Spaces::: root,
 :root,
