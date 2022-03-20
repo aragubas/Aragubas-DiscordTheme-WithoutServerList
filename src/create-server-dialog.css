@@ -1,0 +1,44 @@
+/*
+    Copyright (C) 2022  Aragubas
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.  
+*/
+
+/* Create a Server Dialog */
+.theme-light .root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3 {
+  background: var(--linearGradient-background-semilight-floating) !important;
+  box-shadow: none;
+}
+
+/* Scrollbar */
+.theme-light
+  .content-2hZxGK.templatesList-uohY49.thin-31rlnD.scrollerBase-_bVAAt::-webkit-scrollbar-thumb {
+  background-color: var(--background-primary);
+}
+
+/* Fixes the colors in the create a server dialog */
+/* .theme-light h3.title-1_TkpU.base-21yXnu.size24-17l95E,
+.theme-light h3.title-OdeD-o.base-21yXnu.size24-17l95E,
+.theme-light h3.footerTitle-3Bslxi.base-21yXnu.size20-9iTTnl,
+.theme-light .colorHeaderSecondary-g5teka.size14-3fJ-ot.skip-2hTIXL,
+.theme-light .contents-3ca1mk,
+.theme-light .colorHeaderSecondary-g5teka.size16-rrJ6ag.subtitle-3m-md1,
+.theme-light .colorHeaderSecondary-g5teka.size12-oc4dx4.optionHeader-27AHfD,
+.theme-light .colorHeaderSecondary-g5teka.size16-rrJ6ag.subtitle-1cc8Nz {
+  color: var(--text-normal);
+} */
+
+/* .theme-light.footer-31IekZ {
+  background-color: red;
+} */

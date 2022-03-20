@@ -1,0 +1,50 @@
+/*
+    Copyright (C) 2022  Aragubas
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.  
+
+  ## Metadata for Powercord ##
+  * @name TaiyouUI Discord Theme
+  * @author Aragubas#3594
+  * @authorId 678368118371778570
+  * @version AutoUpdating
+  * @description That theme with a Compact design and a blue color scheme without performance compromises
+  * @source https://github.com/aragubas/Aragubas-DiscordTheme
+
+*/
+
+@use "./user-profile.css";
+@use "./context-menus.css";
+@use "./dialogs.css";
+@use "./bottomBar-layout.css";
+@use "./topBar-layout.css";
+@use "./popups.css";
+@use "./small-fixes.css";
+@use "./settings.css";
+@use "./create-server-dialog.css";
+@use "./color-scheme.css";
+
+// Variables for Color Scheme, Gradients and Spaces::: root,
+:root,
+.theme-light,
+.theme-dark {
+  /* Spaces */
+  --space-Med: 0.5rem;
+
+  /* TopBarLayout */
+  --topBarLayout-height: 2.5rem;
+
+  /* BottomBarLayout */
+  --bottomBarLayout-height: 3rem;
+}

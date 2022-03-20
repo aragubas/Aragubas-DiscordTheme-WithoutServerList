@@ -1,0 +1,8 @@
+{
+  "name": "Aragubas-DiscordTheme-WithoutServerList",
+  "description": "That theme with a Compact design and a blue color scheme without performance compromises. This version doesn't have auto-hiding server list.",
+  "version": "1.0.0",
+  "author": "Aragubas#3594",
+  "theme": "src/app.scss",
+  "license": "GNU GPL3"
+}

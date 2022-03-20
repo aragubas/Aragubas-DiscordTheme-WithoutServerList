@@ -1,0 +1,78 @@
+/*
+    Copyright (C) 2022  Aragubas
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.  
+*/
+
+/* Auto-Complete dialog */
+.autocomplete-3NRXG8 {
+  background-color: var(--background-secondary) !important;
+  border-radius: 0px;
+}
+
+/* Selected item in Auto-Complete Dialog */
+.selected-3H3-RC {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+/* Category Header in Slash Command Dialog */
+.categoryHeader-OpJ1Ly {
+  background-color: var(--background-tertiary) !important;
+}
+
+/* Popup Notifications Background */
+.theme-dark.root-g14mjS {
+  background-color: unset;
+  background: var(--linearGradient-background-floating);
+}
+
+/* Search Popup  */
+.theme-dark .container-2McqkF {
+  background: var(--linearGradient-background-floating);
+}
+
+/* Removes dark patch in the end of search popup stuff */
+.theme-dark .option-ayUoaq::after,
+.theme-light .option-ayUoaq::after {
+  display: none;
+}
+
+/* Thread Popup */
+.content-1SgpWY .container-3XgAHv {
+  background-color: var(--background-secondary-alt);
+  border-radius: 0px;
+}
+
+/* 
+    Small fixes for implementation of light theme
+*/
+
+/* Search Popup Background Color in light theme */
+.theme-light .container-2McqkF {
+  background: var(--linearGradient-background-floating);
+}
+
+/* Muted text in search popup */
+.theme-light .searchOption-3u1gRt .answer-14OVbQ,
+.theme-light .option-ayUoaq .filter-2QaH9y {
+  color: var(--text-muted);
+}
+
+/* Header titles on search popup in light theme */
+.theme-light .resultsGroup-cfY57t .header-1BR0Ro,
+.theme-light .resultsGroup-cfY57t .plusIcon-1RVszG,
+.theme-light .resultsGroup-cfY57t .searchClearHistory-3nIKUO,
+.theme-light .resultsGroup-cfY57t .searchLearnMore-1gNL3A a {
+  color: var(--text-normal);
+}
